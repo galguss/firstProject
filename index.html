@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>GalGusakovsky</title>
+</head>
+<body>
+    <div id="container">
+
+        <header>
+            <img id="logo" src="images/logo.jpg">
+            <nav>
+                <a class="Olink" href="https://poki.co.il/" target="-blank">משחקים</a>
+                <a class="Olink" href="https://www.ynet.co.il/news" target="-blank">חדשות</a>
+                <a class="Olink" href="https://reserved-il.com/" target="-blank">בגדים</a>
+                <a class="Olink" id="left" target="-blank" href="https://www.rest.co.il/rest/80329536/">מסעדה</a>
+            </nav>
+        </header>
+
+        <section>
+            <div id="sport_box">
+            <h2>סנוקר</h2>
+            <p>
+                <b> ההנחה המקובלת היא כי מקורו של משחק הסנוקר הוא במחצית השנייה של המאה ה-19.</b>
+                <br> <i>משחקי ביליארד היו אותה עת בילוי חביב לשעות הפנאי על קציני הצבא הבריטי שהוצבו בהודו,</i>
+                <br> ובמקום פותחו מספר גרסאות למשחקי הביליארד המסורתיים עד לאותה עת. אחת הגרסאות,
+                <br> אשר פותחה ככל הנראה בשנת 1874, או 1875, 
+                <br>על ידי קציני הצבא הבריטי שהוצבו בג'בלפור,
+                <br> הייתה הוספת כדורי משחק צבעוניים לכדורים האדומים והכדור השחור שהיו נהוגים עד אז במשחקי פול.
+            </p>
+            </div>
+        </section>
+
+        <div id="food">
+            <div>
+                <a href="https://www.mako.co.il/food-recipes/recipes_column-meat/Recipe-3862c6d020deb21004.htm" target="-blank"><img src="images/borger.jpg"/></a>
+            </div>
+            
+                <ul>
+                    <li>דבלבורגר</li>
+                    <li>בורגרגל</li>
+                    <li>צ'יקנבורגר</li>
+                    <li>המבורגר 220 גרם</li>
+                </ul>
+            
+            <div id="borger_B">
+
+            </div>
+        </div>
+
+        <div id="cars">
+            <div><a href="https://www.ynet.co.il/articles/0,7340,L-5525839,00.html" target="-blank"><img src="images/honda.jpg" title="Honda" /></a></div>
+            <div><a href="https://www.icar.co.il/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94_C-HR/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94_C-HR_%D7%97%D7%93%D7%A9/" target="-blank"><img src="images/toyota.jpg" title="Toyota" /></a></div>
+            <div><a href="https://www.carzone.co.il/Suzuki/Crossover/" target="-blank"><img src="images/suzuki.jpg" title="Suzuki" /></a></div>
+        </div>
+
+        <div id="Extras">
+            <form action="form.html" method="get">
+                <fieldset>
+                   <legend><h3>תוספות</h3></legend> 
+                    <div class="ext">
+                        <label id="first"><input type="checkbox" name="Onion_rings" value="Onion_rings"> טבעות בצל </label>
+                        <label><input type="checkbox" name="chips" value="chips"> צ'יפס </label>
+                        <label><input type="checkbox" name="Potato" value="Potato"> תפוח אדמה </label>
+                    </div>
+                    <div class="ext">
+                        <label id="one"><input type="checkbox" name="pickles" value="pickles"> חמוצים </label>
+                        <label><input type="checkbox" name="Sauces" value="Sauces"> רטבים </label>
+                        <label><input type="checkbox" name="drinking" value="drinking"> שתיה </label>
+                    </div>    
+                </fieldset>
+
+                <div id="Shipping">
+                    <label id="service"><input name="Shipping" value="Shipping" type="radio"/> משלוח </label>
+                    <label><input name="Shipping" value="Pickup" type="radio"/> איסוף עצמי </label>
+                </div>
+                <div id="size">
+                    <label id="Children"><input name="size" value="Children" type="radio"/> מנת ילדים </label>
+                    <label><input name="size" value="Normal" type="radio"/> מנה רגילה </label>
+                </div>
+
+                <div id="Details">
+                    <label id="Amount"> כמות מנות: <input name="Amount" type="number" min="1" max="10" required/></label>
+                    <label id="Email"> כתובת איימל: <input name="Email" type="email" required /></label>
+                    <label id="Address"> כתובת מגורים: <input name="Address" list="cities" required /></label>
+                    <datalist id="cities">
+                        <option>קרית שמונה</option>
+                        <option>חצור הגלילית</option>
+                        <option>צפת</option>
+                        <option>טבריה</option>
+                        <option>ראש פינה</option>
+                    </datalist>
+                </div> 
+                
+                <button>בצע הזמנה</button>
+            </form>
+        </div>
+
+        <footer>
+            <p>כל הזכויות שמורות &copy; </p>
+            
+            <a class="Olink" href="#logo">חזרה לראש הדף</a>
+        </footer>
+
+    </div>
+</body>
+</html>
